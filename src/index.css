@@ -1,133 +1,51 @@
-/* src/index.css */
+/* index.css - Update */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   * {
-    @apply m-0 p-0 box-border;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
-
+  
   body {
-    @apply antialiased text-gray-900 overflow-x-hidden;
-    font-feature-settings: 'rlig' 1, 'calt' 1;
-  }
-
-  ::selection {
-    @apply bg-red-500/30 text-red-900;
-  }
-}
-
-@layer utilities {
-  .animate-gradient {
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-  }
-
-  .text-gradient {
-    @apply bg-gradient-to-r from-red-600 to-red-800 bg-clip-text text-transparent;
-  }
-
-  .glass-effect {
-    @apply bg-white/10 backdrop-blur-md border border-white/20;
-  }
-
-  .shadow-glow-red {
-    box-shadow: 0 0 40px rgba(220, 38, 38, 0.3);
-  }
-
-  .shadow-glow-red:hover {
-    box-shadow: 0 0 60px rgba(220, 38, 38, 0.5);
+    font-family: 'Inter', sans-serif;
+    background-color: #f3f4f6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 }
 
 /* Custom scrollbar */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 6px;
+  height: 6px;
 }
 
 ::-webkit-scrollbar-track {
-  @apply bg-red-50;
+  background: #f1f1f1;
+  border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-gradient-to-b from-red-400 to-red-600 rounded-full;
+  background: #dc2626;
+  border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  @apply from-red-500 to-red-700;
+  background: #b91c1c;
 }
 
-/* src/index.css - Add these animations */
-@keyframes slide-up {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+/* Focus styles */
+*:focus {
+  outline: none;
 }
 
-.animate-slide-up {
-  animation: slide-up 0.3s ease-out;
-}
-
-@keyframes slide-in {
-  from {
-    opacity: 0;
-    transform: translateX(-20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-.animate-slide-in {
-  animation: slide-in 0.5s ease-out forwards;
-  opacity: 0;
-}
-
-/* Add to src/index.css */
-@keyframes slide-in-right {
-  from {
-    transform: translateX(100%);
-    opacity: 0;
-  }
-  to {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-@keyframes progress-shrink {
-  from {
-    width: 100%;
-  }
-  to {
-    width: 0%;
-  }
-}
-
-@keyframes shimmer {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(100%);
-  }
-}
-
-.animate-slide-in-right {
-  animation: slide-in-right 0.3s ease-out forwards;
-}
-
-.animate-progress-shrink {
-  animation: progress-shrink linear forwards;
-}
-
-.animate-shimmer {
-  animation: shimmer 2s infinite;
+*:focus-visible {
+  outline: 2px solid #dc2626;
+  outline-offset: 2px;
 }
