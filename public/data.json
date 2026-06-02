@@ -20,7 +20,9 @@
         "Performed feature engineering and applied data normalization techniques for multivariate time series modeling.",
         "Built and evaluated LSTM models to predict daily temperature, rainfall, humidity, and sunshine duration.",
         "Assessed model performance using MAE and RMSE, with 4 out of 5 variables meeting climatological accuracy thresholds."
-      ]
+      ],
+              "projectLink": ""
+
     },
     {
       "title": "Research Assistant Intern",
@@ -31,7 +33,9 @@
         "Conducted benchmarking analysis of SINTESIS LMS platform to compare features and gain user experience insights.",
         "Studied Digital Competency Dictionary and performed mini research on 10 core digital competencies for regulators in 2025.",
         "Proposed updates to digital competency list and developed draft syllabus for training modules."
-      ]
+      ],
+        "projectLink": "https://drive.google.com/file/d/1x-DkWSf55JauaJcUyTpK-d-M-Q5RoQFb/view?usp=sharing"
+
     },
     {
       "title": "Capstone Project – Data Analytics",
@@ -54,7 +58,9 @@
         "Performed data cleaning in Google Colab, including fixing 488 missing values and handling outliers.",
         "Built interactive dashboards in Looker Studio to present cancellation trend insights from 2015–2017.",
         "Delivered data-driven operational recommendations to reduce cancellations."
-      ]
+      ],
+        "projectLink": ""
+
     }
   ],
   "education": {

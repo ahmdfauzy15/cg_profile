@@ -63,7 +63,9 @@ const Experience = ({ experiences }) => {
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-5 py-2 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full text-sm font-medium text-white hover:shadow-lg hover:shadow-blue-500/30 transition-all duration-300 hover:-translate-y-0.5"
                   >
-                    <span>View Project</span>
+                    <span>View Detail
+                      
+                    </span>
                     <span>→</span>
                   </a>
                 </div>
