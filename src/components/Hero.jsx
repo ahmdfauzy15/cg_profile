@@ -7,7 +7,7 @@ const Hero = ({ personal }) => {
   const [isDeleting, setIsDeleting] = useState(false);
   
   const roles = [
-    'Data Engineer Enthusiast',
+    'Data Enthusiast',
     'Data Analyst',
     'Information Systems Graduate',
     'Tech Professional'
