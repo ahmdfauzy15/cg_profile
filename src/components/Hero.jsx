@@ -44,13 +44,14 @@ const Hero = ({ personal }) => {
   const cvPdfPath = "/cv_clarissa_auliya_ghavira.pdf";
 
   return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
-      <div className="relative z-10 text-center px-6 max-w-6xl mx-auto">
-        {/* Profile Image */}
-        <div className="animate-float inline-block mb-8 group">
+    <section className="min-h-screen flex items-center justify-center relative overflow-hidden py-12 md:py-16 lg:py-20">
+      <div className="relative z-10 text-center px-4 sm:px-6 md:px-8 max-w-6xl mx-auto w-full">
+        
+        {/* Profile Image - Responsive sizing */}
+        <div className="animate-float inline-block mb-6 sm:mb-8 md:mb-10 group">
           <div className="relative">
             <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-blue-400 via-cyan-400 to-indigo-400 blur-xl opacity-60 group-hover:opacity-100 transition-opacity duration-500 animate-pulse-slow"></div>
-            <div className="relative w-40 h-40 rounded-full bg-gradient-to-tr from-blue-400 via-cyan-400 to-indigo-400 p-[3px] animate-glow">
+            <div className="relative w-28 h-28 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-44 lg:h-44 rounded-full bg-gradient-to-tr from-blue-400 via-cyan-400 to-indigo-400 p-[3px] animate-glow">
               <div className="w-full h-full rounded-full bg-white flex items-center justify-center overflow-hidden">
                 <img 
                   src="/profile.png" 
@@ -58,7 +59,7 @@ const Hero = ({ personal }) => {
                   className="w-full h-full object-cover rounded-full"
                   onError={(e) => {
                     e.target.style.display = 'none';
-                    e.target.parentElement.innerHTML = '<div class="w-full h-full rounded-full bg-gradient-to-br from-gray-100 to-blue-100 flex items-center justify-center text-3xl font-bold text-blue-400">CG</div>';
+                    e.target.parentElement.innerHTML = '<div class="w-full h-full rounded-full bg-gradient-to-br from-gray-100 to-blue-100 flex items-center justify-center text-2xl sm:text-3xl font-bold text-blue-400">CG</div>';
                   }}
                 />
               </div>
@@ -66,34 +67,36 @@ const Hero = ({ personal }) => {
           </div>
         </div>
         
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 animate-fade-up">
+        {/* Title - Responsive text */}
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-3 sm:mb-4 animate-fade-up">
           <span className="text-gray-800">{personal.name.split(' ')[0]}</span>{' '}
-          <span className="gradient-text-primary">
+          <span className="gradient-text-primary whitespace-normal break-words">
             {personal.name.split(' ').slice(1).join(' ')}
           </span>
         </h1>
         
-        <div className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-4 animate-fade-up animation-delay-200">
+        {/* Role text - Responsive */}
+        <div className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-3 sm:mb-4 animate-fade-up animation-delay-200 px-2">
           <span className="font-semibold border-r-2 border-blue-400 pr-1">{displayText}</span>
         </div>
         
-        {/* Deskripsi lengkap dari data.json tanpa batasan karakter */}
-        <p className="text-base text-gray-600 max-w-3xl mx-auto mb-8 leading-relaxed animate-fade-up animation-delay-400">
+        {/* Description - Full text with better spacing */}
+        <p className="text-sm sm:text-base text-gray-600 max-w-3xl mx-auto mb-6 sm:mb-8 leading-relaxed animate-fade-up animation-delay-400 px-4 sm:px-6">
           {personal.about}
         </p>
         
-        {/* Button Group */}
-        <div className="flex flex-wrap justify-center gap-4 animate-fade-up animation-delay-600">
+        {/* Button Group - Responsive buttons */}
+        <div className="flex flex-wrap justify-center gap-3 sm:gap-4 animate-fade-up animation-delay-600 px-4">
           <a
             href="#experience"
-            className="btn-primary px-8 py-3 rounded-full text-white font-medium transition-all duration-300 inline-flex items-center gap-2 group"
+            className="btn-primary px-5 sm:px-6 md:px-8 py-2.5 sm:py-3 rounded-full text-white font-medium transition-all duration-300 inline-flex items-center gap-2 group text-sm sm:text-base"
           >
             <span>View Portfolio</span>
             <span className="group-hover:translate-x-1 transition-transform">→</span>
           </a>
           <a
             href={`mailto:${personal.email}`}
-            className="btn-secondary px-8 py-3 rounded-full text-blue-600 font-medium transition-all duration-300 inline-flex items-center gap-2"
+            className="btn-secondary px-5 sm:px-6 md:px-8 py-2.5 sm:py-3 rounded-full text-blue-600 font-medium transition-all duration-300 inline-flex items-center gap-2 text-sm sm:text-base"
           >
             Contact
           </a>
@@ -101,14 +104,14 @@ const Hero = ({ personal }) => {
             href={cvPdfPath}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-secondary px-8 py-3 rounded-full text-blue-600 font-medium transition-all duration-300 inline-flex items-center gap-2"
+            className="btn-secondary px-5 sm:px-6 md:px-8 py-2.5 sm:py-3 rounded-full text-blue-600 font-medium transition-all duration-300 inline-flex items-center gap-2 text-sm sm:text-base"
           >
             CV
           </a>
         </div>
         
-        {/* Contact Info */}
-        <div className="flex flex-wrap justify-center gap-4 md:gap-6 mt-10 text-sm text-gray-500 animate-fade-up animation-delay-800">
+        {/* Contact Info - Responsive layout */}
+        <div className="flex flex-wrap justify-center gap-3 md:gap-6 mt-8 sm:mt-10 text-xs sm:text-sm text-gray-500 animate-fade-up animation-delay-800 px-2">
           <span className="flex items-center gap-1">{personal.location}</span>
           <span className="w-1 h-1 rounded-full bg-blue-300 my-auto hidden sm:block"></span>
           <span className="flex items-center gap-1">{personal.phone}</span>
@@ -122,6 +125,7 @@ const Hero = ({ personal }) => {
             LinkedIn Profile
           </a>
         </div>
+
       </div>
     </section>
   );
