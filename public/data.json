@@ -11,7 +11,21 @@
     "about": "Fresh graduate in Information Systems with strong enthusiasm for continuous learning and professional growth in technology. Possesses keen interest in data engineering, data administration, and data analytics, transforming raw data into meaningful insights to support decision-making."
   },
   "experiences": [
-    {
+     {
+   "title": "Mobile Market Trends Dashboard Analysis",
+  "place": "BNSP Data Analytics Certification Project",
+  "date": "Sep 2025",
+      "desc": [
+  "Analyzed smartphone market data across multiple brands, specifications, and pricing segments.",
+    "Cleaned and transformed raw datasets using data preprocessing techniques to ensure accuracy and consistency.",
+    "Developed interactive dashboards and KPI monitoring features to visualize mobile phone pricing trends and product distributions.",
+    "Conducted comparative analysis of processor types, storage capacity, screen size, and launch prices to identify market patterns.",
+    "Presented analytical findings through data visualization and business intelligence reporting to support strategic decision-making."
+      ],
+              "projectLink": "https://datastudio.google.com/u/0/reporting/716999bb-4832-4d6c-9c43-ec17b9950ac5/page/s3iNF"
+
+    }
+    ,{
       "title": "Research – Multivariate Weather Parameter Forecasting Using LSTM",
       "place": "Gunadarma University",
       "date": "May 2025 – Sep 2025",
@@ -21,7 +35,7 @@
         "Built and evaluated LSTM models to predict daily temperature, rainfall, humidity, and sunshine duration.",
         "Assessed model performance using MAE and RMSE, with 4 out of 5 variables meeting climatological accuracy thresholds."
       ],
-              "projectLink": ""
+              "projectLink": "https://drive.google.com/file/d/1M--aFHOx-HcILJZbPxHV_S5uq1zvWMFu/view?usp=sharing"
 
     },
     {
@@ -59,7 +73,7 @@
         "Built interactive dashboards in Looker Studio to present cancellation trend insights from 2015–2017.",
         "Delivered data-driven operational recommendations to reduce cancellations."
       ],
-        "projectLink": ""
+        "projectLink": "https://datastudio.google.com/reporting/e1a434de-ba59-4a2a-adf0-1b755be4e672/page/p_ihcnym7jad"
 
     }
   ],
@@ -166,8 +180,8 @@
       "issuer": "BEM FIKTI UG",
       "date": "Oct 2023",
       "skills": ["Teamwork", "Event Coordination", "Leadership"],
-      "file": "/certificates/ser9.1.jpg",
-      "preview": "/certificates/ser9.1.jpg"
+      "file": "/certificates/ser11.pdf",
+      "preview": "/certificates/ser11.pdf"
     },
     {
       "name": "Certificate MSIB Participation",
@@ -176,6 +190,23 @@
       "skills": ["Independent Study", "Project-based Learning"],
       "file": "/certificates/ser10.jpg",
       "preview": "/certificates/ser10.jpg"
+    },
+     {
+      "name": "BNSP Professional Certification - Data Analyst",
+      "issuer": "Universitas Gunadarma",
+      "date": "September 2025",
+      "skills": ["Identify Data Management Needs", "Collect Data", "Review Data", "Validate Data", "Determine Data Objects", "Build Business Intelligence", "Prepare Analysis Results Reports"],
+      "file": "/certificates/ser12.pdf",
+      "preview": "/certificates/ser12.pdf"
+    },
+{
+      "name": "Creating Business Intelligence Training",
+      "issuer": "Universitas Gunadarma",
+      "date": "June 2025",
+       "skills": ["Defining Data Objects", "Creating Business Intelligence", "Compile Analysis Report", "Business Intelligence", "Data Analysis"],
+      "file": "/certificates/ser13.pdf",
+      "preview": "/certificates/ser13.pdf"
     }
+    
   ]
 }
