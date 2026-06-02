@@ -25,28 +25,47 @@ const About = ({ personal }) => {
         </div>
         
         <div className="grid lg:grid-cols-2 gap-10">
+          {/* Bagian Kiri - Foto Profil */}
           <div className="glass-card p-8 hover-lift">
-            <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 rounded-full bg-gradient-to-r from-blue-400 to-cyan-400 flex items-center justify-center">
-                <span className="text-white text-xl">👤</span>
+            {/* Foto Profil dengan animasi */}
+            <div className="flex justify-center mb-6">
+              <div className="relative group">
+                <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-blue-400 via-cyan-400 to-indigo-400 blur-xl opacity-60 group-hover:opacity-100 transition-opacity duration-500 animate-pulse-slow"></div>
+                <div className="relative w-36 h-36 md:w-44 md:h-44 rounded-full bg-gradient-to-tr from-blue-400 via-cyan-400 to-indigo-400 p-[3px] animate-glow">
+                  <div className="w-full h-full rounded-full bg-white flex items-center justify-center overflow-hidden">
+                    <img 
+                      src="/profile.png" 
+                      alt={personal.name}
+                      className="w-full h-full object-cover rounded-full group-hover:scale-105 transition-transform duration-300"
+                      onError={(e) => {
+                        e.target.style.display = 'none';
+                        e.target.parentElement.innerHTML = '<div class="w-full h-full rounded-full bg-gradient-to-br from-blue-100 to-cyan-100 flex items-center justify-center text-4xl font-bold text-blue-400">CG</div>';
+                      }}
+                    />
+                  </div>
+                </div>
               </div>
-              <h3 className="text-2xl font-semibold text-gray-800">Who Am I?</h3>
             </div>
-            <p className="text-gray-600 leading-relaxed">
-              {personal.about}
-            </p>
-            <div className="mt-6 grid grid-cols-2 gap-4">
-              <div className="flex items-center gap-2 text-gray-600">
-                <span className="text-blue-500">🏛</span>
-                <span>{personal.university}</span>
+
+            {/* Nama dan Info */}
+            <div className="text-center mb-4">
+              <h3 className="text-2xl font-semibold text-gray-800">{personal.name}</h3>
+              <p className="text-blue-500 text-sm mt-1">Information Systems Graduate</p>
+              <div className="flex justify-center gap-4 mt-3">
+                <span className="text-xs text-gray-500">{personal.location}</span>
+                <span className="text-xs text-gray-500">{personal.email}</span>
               </div>
-              <div className="flex items-center gap-2 text-gray-600">
-                <span className="text-blue-500">📘</span>
-                <span>{personal.major}</span>
-              </div>
+            </div>
+
+            {/* Deskripsi */}
+            <div className="mt-4">
+              <p className="text-gray-600 leading-relaxed text-center">
+                {personal.about}
+              </p>
             </div>
           </div>
           
+          {/* Bagian Kanan - Stats */}
           <div className="grid grid-cols-2 gap-4">
             {stats.map((stat, idx) => (
               <div 
