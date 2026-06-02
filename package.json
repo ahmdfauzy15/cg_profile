@@ -1,5 +1,5 @@
 {
-  "name": "pksi-progress-app",
+  "name": "clarissa-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,16 +10,25 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@heroicons/react": "^2.2.0",
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.6.1",
     "@supabase/supabase-js": "^2.105.3",
     "date-fns": "^4.1.0",
     "dotenv": "^17.2.3",
+    "framer-motion": "^12.38.0",
     "lucide-react": "^0.556.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "react-hook-form": "^7.76.0",
     "react-icons": "^5.6.0",
-    "react-router-dom": "^7.10.1",
-    "recharts": "^3.5.1"
+    "react-intersection-observer": "^10.0.3",
+    "react-parallax-tilt": "^1.7.328",
+    "react-router-dom": "^7.15.1",
+    "react-toastify": "^11.1.0",
+    "recharts": "^3.5.1",
+    "three": "^0.184.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",

@@ -1,0 +1,175 @@
+{
+  "personal": {
+    "name": "Clarissa Auliya Ghavira",
+    "email": "Clarissaghavvy@gmail.com",
+    "phone": "+62 816-1765-0482",
+    "location": "Jakarta, Indonesia",
+    "linkedin": "https://www.linkedin.com/in/clarissaghavira",
+    "gpa": "3.84/4.00",
+    "university": "Gunadarma University",
+    "major": "Information Systems",
+    "about": "Fresh graduate in Information Systems with strong enthusiasm for continuous learning and professional growth in technology. Possesses keen interest in data engineering, data administration, and data analytics, transforming raw data into meaningful insights to support decision-making."
+  },
+  "experiences": [
+    {
+      "title": "Research – Multivariate Weather Parameter Forecasting Using LSTM",
+      "place": "Gunadarma University",
+      "date": "May 2025 – Sep 2025",
+      "desc": [
+        "Processed and analyzed 17,000+ historical weather records (2017–2024) from Bogor Regency using Python.",
+        "Performed feature engineering and applied data normalization techniques for multivariate time series modeling.",
+        "Built and evaluated LSTM models to predict daily temperature, rainfall, humidity, and sunshine duration.",
+        "Assessed model performance using MAE and RMSE, with 4 out of 5 variables meeting climatological accuracy thresholds."
+      ]
+    },
+    {
+      "title": "Research Assistant Intern",
+      "place": "Otoritas Jasa Keuangan",
+      "date": "March 2025",
+      "desc": [
+        "Drafted UAT Scenario Document (Phase 1, Part 2) aligned with OJK's software testing framework.",
+        "Conducted benchmarking analysis of SINTESIS LMS platform to compare features and gain user experience insights.",
+        "Studied Digital Competency Dictionary and performed mini research on 10 core digital competencies for regulators in 2025.",
+        "Proposed updates to digital competency list and developed draft syllabus for training modules."
+      ]
+    },
+    {
+      "title": "Capstone Project – Data Analytics",
+      "place": "RevoU Technology",
+      "date": "Feb – Jun 2024",
+      "desc": [
+        "Conducted EDA, data cleaning, and SQL querying using Spreadsheets and BigQuery on European bicycle sales dataset.",
+        "Identified significant profit decline in 2016 based on six-year sales trend analysis.",
+        "Developed data visualization dashboards in Google Looker Studio covering key metrics.",
+        "Generated data-driven insights and recommendations to address sales decline and cost optimization."
+      ],
+      "projectLink": "https://drive.google.com/file/d/1TLwkPLdzeYZOm7ZCu4VcwBAh6DoNL64j/view"
+    },
+    {
+      "title": "Scientific Research – Hotel Cancellation Analysis",
+      "place": "Gunadarma University",
+      "date": "Mar – Aug 2024",
+      "desc": [
+        "Analyzed 119,000 hotel booking demand records and identified high cancellation rate for City Hotels (65.5%).",
+        "Performed data cleaning in Google Colab, including fixing 488 missing values and handling outliers.",
+        "Built interactive dashboards in Looker Studio to present cancellation trend insights from 2015–2017.",
+        "Delivered data-driven operational recommendations to reduce cancellations."
+      ]
+    }
+  ],
+  "education": {
+    "degree": "Bachelor of Information Systems",
+    "institution": "Gunadarma University",
+    "period": "2021 – 2025",
+    "achievements": [
+      "BUMN Scholarship (2 periods)",
+      "HTML5 Certified",
+      "Best Volunteer BEM FIKTI",
+      "Best Project in RevoU – Bike Sales Dataset"
+    ]
+  },
+  "organizations": [
+    {
+      "role": "Volunteer – Equipment Division",
+      "organization": "BEM FIKTI Gunadarma University",
+      "period": "Mar – Aug 2023",
+      "desc": "Prepared all event equipment, ensured availability from start to end, coordinated with internal and external parties."
+    },
+    {
+      "role": "Leader – Liason Officer",
+      "organization": "Srikandi (Traditional Art & Dance Union)",
+      "period": "Apr 2020 – May 2021",
+      "desc": "Responsible for communicating with external parties, ensuring event success and responding to inquiries."
+    }
+  ],
+  "skills": {
+    "Languages": ["Indonesia (Native)", "English (Intermediate)"],
+    "Programming": ["Python (Beginner)", "JavaScript (Beginner)", "HTML/CSS (Beginner)"],
+    "Database": ["SQL (Intermediate)", "Oracle"],
+    "Tools": ["Google Colab", "Looker Studio", "BigQuery", "MS Office"],
+    "Data Analytics": ["EDA", "Data Cleaning", "Visualization", "Business Understanding"],
+    "Soft Skills": ["Teamwork", "Leadership", "Time Management", "Analytical Thinking", "Adaptability"]
+  },
+  "certifications": [
+    {
+      "name": "Data Preparation for Business Process",
+      "issuer": "Universitas Gunadarma",
+      "date": "Sep 2024",
+      "skills": ["Data Preparation", "Business Understanding", "Data Analysis", "Statistical Data Analysis", "Business Intelligence", "Business Analysis"],
+      "file": "/certificates/ser1.pdf",
+      "preview": "/certificates/ser1.pdf"
+    },
+    {
+      "name": "SQL SERVER FOR INTERMEDIATE",
+      "issuer": "Universitas Gunadarma",
+      "date": "Feb 2024",
+      "skills": ["Oracle SQL Developer", "MySQL", "SQL Database Administration", "Transact-SQL"],
+      "file": "/certificates/ser2.pdf",
+      "preview": "/certificates/ser2.pdf"
+    },
+    {
+      "name": "SQL SERVER FOR BEGINNER",
+      "issuer": "Universitas Gunadarma",
+      "date": "Feb 2023",
+      "skills": ["MySQL", "Oracle SQL Developer", "SQL Server"],
+      "file": "/certificates/ser3.pdf",
+      "preview": "/certificates/ser3.pdf"
+    },
+    {
+      "name": "ORACLE FOR INTERMEDIATE",
+      "issuer": "Universitas Gunadarma",
+      "date": "Aug 2024",
+      "skills": ["Oracle Database", "Oracle E-Business Suite", "Oracle Database Administration", "Oracle SQL Developer"],
+      "file": "/certificates/ser4.pdf",
+      "preview": "/certificates/ser4.pdf"
+    },
+    {
+      "name": "ORACLE FOR BEGINNER",
+      "issuer": "Universitas Gunadarma",
+      "date": "Feb 2023",
+      "skills": ["Oracle SQL Developer", "Oracle Database"],
+      "file": "/certificates/ser5.pdf",
+      "preview": "/certificates/ser5.pdf"
+    },
+    {
+      "name": "Fundamental DBMS",
+      "issuer": "Universitas Gunadarma",
+      "date": "Aug 2022",
+      "skills": ["Database Management System (DBMS)", "Oracle Database"],
+      "file": "/certificates/ser6.pdf",
+      "preview": "/certificates/ser6.pdf"
+    },
+    {
+      "name": "Fundamental ERP",
+      "issuer": "Universitas Gunadarma",
+      "date": "Feb 2022",
+      "skills": ["ERP Implementations", "ERP Software"],
+      "file": "/certificates/ser7.pdf",
+      "preview": "/certificates/ser7.pdf"
+    },
+    {
+      "name": "Best Capstone Project – Bike Sales Dataset",
+      "issuer": "RevoU",
+      "date": "Jul 2024",
+      "skills": ["Data Analytics", "Visualization", "Presentation"],
+      "file": "/certificates/ser8.jpg",
+      "preview": "/certificates/ser8.jpg"
+    },
+    {
+      "name": "Volunteer Certificate",
+      "issuer": "BEM FIKTI UG",
+      "date": "Oct 2023",
+      "skills": ["Teamwork", "Event Coordination", "Leadership"],
+      "file": "/certificates/ser9.1.jpg",
+      "preview": "/certificates/ser9.1.jpg"
+    },
+    {
+      "name": "Certificate MSIB Participation",
+      "issuer": "Kampus Merdeka",
+      "date": "Jul 2024",
+      "skills": ["Independent Study", "Project-based Learning"],
+      "file": "/certificates/ser10.jpg",
+      "preview": "/certificates/ser10.jpg"
+    }
+  ]
+}
